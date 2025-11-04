@@ -11,5 +11,7 @@ public class ScannerClass {
 
         String name = scanner.nextLine().trim();
         System.out.print("Your name is: " + name);
+
+        scanner.close();
     }
 }
