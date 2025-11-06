@@ -7,7 +7,7 @@ public class MultiDimArrays {
         int[][] numbers = new int[3][4];
         numbers[0][0] = 1;
 
-        // System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.deepToString(numbers));
 
         int[][] predefined = {

@@ -13,8 +13,7 @@ public class FormattedNumbers {
         String percentValue = percentFormatter.format(0.75);
         System.out.println(percentValue);
 
-        NumberFormat integerFormatter = NumberFormat.getIntegerInstance();
-        String intValue = integerFormatter.format(12345.678);
+        String intValue = NumberFormat.getIntegerInstance().format(12345.678);
         System.out.println(intValue);
 
         String methodChaining = NumberFormat.getCurrencyInstance().format(98765.4321);

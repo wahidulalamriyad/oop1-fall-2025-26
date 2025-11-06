@@ -14,7 +14,7 @@ public class ArraysDemo {
         System.out.println(Arrays.toString(array));
 
         // Create an array of integers
-        int[] numbers = { 10, 20, 30, 40, 50 };
+        int[] numbers = { 50, 20, 30, 40, 10 };
         Arrays.sort(numbers);
 
         System.out.println("Sorted numbers: " + Arrays.toString(numbers));
