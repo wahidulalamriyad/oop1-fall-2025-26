@@ -57,7 +57,7 @@ public class MortgageCalculator {
     }
 
     // Validate double input
-    private static double getValidDouble(Scanner scanner, String message) {
+    public static double getValidDouble(Scanner scanner, String message) {
         while (true) {
             System.out.print(message);
             if (scanner.hasNextDouble()) {
@@ -70,7 +70,7 @@ public class MortgageCalculator {
     }
 
     // Validate credit score input
-    private static double getValidCreditScore(Scanner scanner) {
+    public static double getValidCreditScore(Scanner scanner) {
         while (true) {
             System.out.print("Enter your credit score (0 - 500): ");
             if (scanner.hasNextDouble()) {
@@ -87,7 +87,7 @@ public class MortgageCalculator {
     }
 
     // Validate boolean input
-    private static boolean getValidBoolean(Scanner scanner) {
+    public static boolean getValidBoolean(Scanner scanner) {
         while (true) {
             System.out.print("Do you have a criminal record? (true/false): ");
             if (scanner.hasNextBoolean()) {
