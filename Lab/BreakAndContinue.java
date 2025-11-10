@@ -7,7 +7,7 @@ public class BreakAndContinue {
         // Demonstrate break and continue in a loop
         Scanner scanner = new Scanner(System.in);
         String input = "";
-        while (!input.equals("exit")) {
+        while (true) {
             System.out.print("Type 'exit' to quit: ");
             input = scanner.nextLine().toLowerCase().trim();
             if (input.equals("skip")) {
